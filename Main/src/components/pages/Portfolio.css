@@ -1,0 +1,14 @@
+#portfolio {
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.col {
+    padding-top: 1rem;
+    padding-left: 5rem;
+    width: max-content;
+}
+
+.thumbnail {
+    width: 500px;
+}

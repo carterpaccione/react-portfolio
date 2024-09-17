@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'AbrilFatface';
+    src: '../fonts/AbrilFatface-Regular.ttf';
+}
+
+#banner {
+    background: black;
+}
+
+#name {
+    font-family: 'AbrilFatface';
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 2rem;
+    margin: 1rem;
+}
+
+#icon {
+    width: 80px;
+    height: 80px;
+    margin: 1rem;
+    border-radius: 50%;
+}
+
+#nameDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Bootstrap Navbar Overrides */
+
+.nav-link {
+    font-family: 'AbrilFatface';
+    font-weight: bold;
+    color: white;
+    margin: 1rem;
+}
+
+.active {
+    color: teal;
+}
+
+.nav-link:hover {
+    color: teal;
+}

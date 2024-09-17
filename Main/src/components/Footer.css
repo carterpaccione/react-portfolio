@@ -1,0 +1,18 @@
+#footer {
+    padding: 1rem;
+    margin: 1rem;
+    background: blue;
+}
+
+#gitHubIcon {
+    height: 40px;
+}
+
+#linkedInIcon {
+    height: 40px;
+    filter: brightness(0) invert(1); /* Make white from blue */
+}
+
+#icons {
+    width: max-content;
+}
