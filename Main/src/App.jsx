@@ -1,9 +1,7 @@
-import './App.css'
+import PortfolioContainer from './components/PortfolioContainer';
 
-function App() {
+export default function App() {
     return (
-        <div className="portfolio-app">
-            
-        </div>
-    )
-}
+        <PortfolioContainer />
+    );
+};
