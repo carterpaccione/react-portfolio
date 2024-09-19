@@ -1,15 +1,17 @@
+@import url('../index.css');
+
 @font-face {
     font-family: 'AbrilFatface';
     src: '../fonts/AbrilFatface-Regular.ttf';
 }
 
 #banner {
-    background: black;
+    background: var(--color-five);
 }
 
 #name {
     font-family: 'AbrilFatface';
-    color: white;
+    color: var(--color-secondary);
     font-size: 4rem;
     font-weight: bold;
 
@@ -48,5 +50,13 @@
 }
 
 .nav-link:hover {
-    color: teal;
+    color: var(--color-secondary);
+}
+
+.nav-link:visited { /* reset color back to initial */
+    color: azure;
+}
+
+.nav-link:active {
+    color: var(--color-secondary);
 }

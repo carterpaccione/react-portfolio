@@ -1,7 +1,13 @@
+@import url('../index.css');
+
 #footer {
     padding: 1rem;
-    margin: 1rem;
-    background: blue;
+    margin-top: 1rem;
+    background: var(--color-four);
+    /* To make static on botton of page */
+    position: static;
+    bottom: 0;
+    width: 100%;
 }
 
 #gitHubIcon {
@@ -10,7 +16,12 @@
 
 #linkedInIcon {
     height: 40px;
-    filter: brightness(0) invert(1); /* Make white from blue */
+    filter: brightness(0) invert(1); /* Make white from colored */
+}
+
+#stackIcon {
+    height: 40px;
+    filter: brightness(0) invert(1);
 }
 
 #icons {

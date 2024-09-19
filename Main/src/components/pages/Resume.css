@@ -1,0 +1,16 @@
+h3 {
+    color: var(--color-five);
+}
+
+ul {
+    color: azure;
+}
+
+p {
+    color: azure;
+}
+
+a {
+    color: var(--color-secondary);
+    font-weight: bold;
+}
