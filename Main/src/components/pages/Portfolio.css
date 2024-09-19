@@ -9,8 +9,32 @@
     padding-top: 1rem;
     padding-left: 5rem;
     width: max-content;
+    position: relative;
 }
 
 .thumbnail {
     width: 500px;
+    height: 300px;
+}
+
+.projectInfo {
+    display: none;
+    position: absolute;
+    /* to position in center */
+    top: 20%;
+    left: 36%;
+
+}
+
+.projectInfo a {
+    color: var(--color-five);
+    text-decoration: none;
+}
+
+.col:hover .projectInfo {
+    display: block;
+}
+
+.col:hover .thumbnail {
+    opacity: 0.3;
 }

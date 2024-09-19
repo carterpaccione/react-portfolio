@@ -41,12 +41,8 @@
 .nav-link {
     font-family: 'AbrilFatface';
     font-weight: bold;
-    color: white;
+    color: azure;
     margin: 1rem;
-}
-
-.active {
-    color: teal;
 }
 
 .nav-link:hover {
