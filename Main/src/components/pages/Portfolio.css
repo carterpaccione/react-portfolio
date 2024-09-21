@@ -31,6 +31,10 @@
     text-decoration: none;
 }
 
+.projectInfo a:hover {
+    color: var(--color-four)
+}
+
 .col:hover .projectInfo {
     display: block;
 }

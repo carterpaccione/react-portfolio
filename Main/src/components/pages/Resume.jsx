@@ -7,7 +7,7 @@ export default function Resume () {
                 <div className="row text-left">
                     <div className="col text-left">
                         <h1>Resume</h1>
-                        <p>Download my <a>resume</a></p>
+                        <p>Download my <a href='../src/assets/Carter-Paccione-Resume.pdf' download='CarterPaccioneResume'>resume</a></p>
                         <h3>Front End Proficiencies</h3>
                         <ul>
                             <li>HTML</li>

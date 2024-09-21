@@ -2,8 +2,6 @@ import './Contact.css';
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
-//TODO: Set variables for text alerts when missing fields or invalid email
-
 export default function Contact () {
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
@@ -80,7 +78,7 @@ export default function Contact () {
                     name='email'
                     value={email}
                     onChange={handleInputChange}
-                    className="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    className="form-control" id="exampleFormControlInput1" placeholder="">
                 </input>
             </div>
             
@@ -88,12 +86,12 @@ export default function Contact () {
                 <label for="exampleFormControlTextarea1" className="form-label">
                     Message
                 </label>
-                <input 
+                <textarea
                     type='text'
                     name='message'
                     value={message}
                     onChange={handleInputChange}
-                    className="form-control" id="exampleFormControlTextarea1" rows="3"></input>
+                    className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             
             <div className='mb-3'>
