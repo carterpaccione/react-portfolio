@@ -45,7 +45,7 @@
     margin: 1rem;
 }
 
-.nav-link:hover {
+.nav-item a:hover {
     color: var(--color-secondary);
 }
 

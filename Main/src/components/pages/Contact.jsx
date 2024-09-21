@@ -78,7 +78,7 @@ export default function Contact () {
                     name='email'
                     value={email}
                     onChange={handleInputChange}
-                    className="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    className="form-control" id="exampleFormControlInput1" placeholder="">
                 </input>
             </div>
             

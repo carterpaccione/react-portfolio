@@ -8,14 +8,14 @@ export default function Portfolio () {
             image: '../src/images/README-thumbnail.png',
             altText: 'EmployeeManagerScreenshot',
             github: 'https://github.com/carterpaccione/README-Generator',
-            link: ''
+            link: 'https://github.com/carterpaccione/README-Generator?tab=readme-ov-file#readme-generator-'
         },
         {
             name: 'Employee Manager',
             image: '../src/images/README-thumbnail.png',
             altText: 'READMEGeneratorScreenshot',
             github: 'https://github.com/carterpaccione/README-Generator',
-            link: ''
+            link: 'https://github.com/carterpaccione/Employee-Manager?tab=readme-ov-file#employee-manager'
         },
         {
             name: 'Weather Dashboard',
@@ -29,14 +29,14 @@ export default function Portfolio () {
             image: '../src/images/VehicleBuilder-thumbnail.png',
             altText: 'VehicleBuilderScreenshot',
             github: 'https://github.com/carterpaccione/VehicleBuilder',
-            link: ''
+            link: 'https://github.com/carterpaccione/VehicleBuilder?tab=readme-ov-file#vehicle-builder'
         },
         {
             name: 'Inventory Manager',
             image: '../src/images/InventoryManager-thumbnail.png',
             altText: 'InventoryManagerScreenshot',
             github: 'https://github.com/carterpaccione/Project-1',
-            link: ''
+            link: 'https://carterpaccione.github.io/Project-1/'
         },
         {
             name: 'React Portfolio',

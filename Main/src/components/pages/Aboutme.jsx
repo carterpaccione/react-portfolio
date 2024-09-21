@@ -11,7 +11,10 @@ export default function Aboutme () {
                 </div>
                 <div className="row text-center">
                     <div className="col" id='description'>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>
+                            My name is Carter Paccione. I am an aspiring and motivated software developer from Manasquan, New Jersey.
+                            Always striving to learn, I hope that I can break my way into the industry with growth on the horizon.
+                        </p>
                     </div>
                 </div>
             </div>
