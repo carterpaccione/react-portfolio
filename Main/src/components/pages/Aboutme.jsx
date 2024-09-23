@@ -6,7 +6,7 @@ export default function Aboutme () {
             <div className="container text-left">
                 <div className="row text-left">
                     <div className="col" id='title'>
-                        <h1><img src='../src/images/dodger.png' alt='dodger' id='icon'></img>About Me</h1>
+                        <h1><img src='../src/images/ProfilePic.JPEG' alt='ProfilePic' id='icon'></img>About Me</h1>
                     </div>
                 </div>
                 <div className="row text-center">
