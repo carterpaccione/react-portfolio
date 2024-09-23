@@ -12,7 +12,7 @@ export default function Footer () {
                     </div>
                     
                     <div className="col">
-                        <a href= 'https://www.linkedin.com' target="_blank">
+                        <a href= 'https://www.linkedin.com/in/carter-paccione/' target="_blank">
                             <img src='../src/images/LI-In-Bug.png' alt='LinkedIn Icon' id='linkedInIcon' />
                         </a>
                     </div>
